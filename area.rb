@@ -12,3 +12,4 @@ class Area < ActiveRecord::Base
   
   has_many :evaluation_areas
 end
+#linha de teste para criar um branch
