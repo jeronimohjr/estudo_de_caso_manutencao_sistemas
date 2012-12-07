@@ -8,7 +8,7 @@ class CriterionsQuestionnaire < ActiveRecord::Base
     criterionquestionnaire = CriterionsQuestionnaire.find(:all, :conditions => {:usability_research_id => research.id, :criterion_id => p.id})
     result = []
     if criterionquestionnaire.blank?
-      result = 'true'
+      result = 'false'
     end
     result
   end
